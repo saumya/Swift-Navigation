@@ -47,7 +47,9 @@ class VCHome: UIViewController {
     private func moveToVC(sid:String,withStoryBoardName:String){
         let storyboard = UIStoryboard(name:withStoryBoardName,bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier(sid)
-        self.navigationController?.showViewController(vc, sender: self)
+        //self.navigationController?.showViewController(vc, sender: self)
+        //self.navigationController?.pushViewController(vc, animated: true)
+        self.showViewController(vc, sender: self) // iOS 8+
     }
     
 
