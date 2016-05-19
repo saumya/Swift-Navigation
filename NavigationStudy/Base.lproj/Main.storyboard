@@ -44,7 +44,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="One" id="Y3a-B3-pmN"/>
+                    <navigationItem key="navigationItem" title="One" id="Y3a-B3-pmN">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="tyR-Bt-4Sz"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AE4-sz-8X3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
