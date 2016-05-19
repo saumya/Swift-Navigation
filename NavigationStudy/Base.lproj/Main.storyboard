@@ -144,6 +144,7 @@
                     </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3B8-BB-VHt"/>
+                        <segue destination="pKu-ug-jqM" kind="show" id="J6l-W7-Mgc"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V5E-aR-Ub2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -168,6 +169,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F93-Ty-Wth" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1573" y="979"/>
+        </scene>
+        <!--User Home-->
+        <scene sceneID="km2-rP-syI">
+            <objects>
+                <viewController storyboardIdentifier="sid_user_home" id="pKu-ug-jqM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J6z-4u-HC6"/>
+                        <viewControllerLayoutGuide type="bottom" id="qeU-La-e4J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GoS-c9-06T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="User Home" id="anw-2z-o5N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Grk-to-YQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="798" y="-519"/>
         </scene>
         <!--Three-->
         <scene sceneID="ywP-h6-HdQ">
