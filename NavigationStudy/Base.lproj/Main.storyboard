@@ -183,7 +183,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="User Home" id="anw-2z-o5N"/>
+                    <navigationItem key="navigationItem" title="User Home" id="anw-2z-o5N">
+                        <barButtonItem key="rightBarButtonItem" title="User Menu" id="Qux-kR-8Zx"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Grk-to-YQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

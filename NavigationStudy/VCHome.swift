@@ -15,7 +15,8 @@ class VCHome: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("VCHome : viewDidLoad")
         //showMenu()
-        showUserHome()
+        //showUserHome()
+        moveToVC("sid_User", withStoryBoardName: "User")
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,11 +38,18 @@ class VCHome: UIViewController {
     private func showUserHome(){
         moveToViewControllerWithStoryboardID("sid_user_home")
     }
+    
     private func moveToViewControllerWithStoryboardID(sid:String){
         let storyboard = UIStoryboard(name:"Main",bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier(sid)
         self.navigationController?.showViewController(vc, sender: self)
     }
+    private func moveToVC(sid:String,withStoryBoardName:String){
+        let storyboard = UIStoryboard(name:withStoryBoardName,bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier(sid)
+        self.navigationController?.showViewController(vc, sender: self)
+    }
+    
 
 
 }
