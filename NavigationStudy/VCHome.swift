@@ -50,6 +50,7 @@ class VCHome: UIViewController {
         //self.navigationController?.showViewController(vc, sender: self)
         //self.navigationController?.pushViewController(vc, animated: true)
         self.showViewController(vc, sender: self) // iOS 8+
+        //
     }
     
 
