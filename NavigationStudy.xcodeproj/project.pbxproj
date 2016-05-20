@@ -9,16 +9,19 @@
 /* Begin PBXBuildFile section */
 		C55E96401CED94C500AFB446 /* VCMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55E963F1CED94C500AFB446 /* VCMenu.swift */; };
 		C55E96421CEDA7E000AFB446 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55E96411CEDA7E000AFB446 /* User.storyboard */; };
+		C55E96441CEDC55200AFB446 /* NavgationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55E96431CEDC55200AFB446 /* NavgationUtil.swift */; };
 		C5A59B0D1CECD30700C5E3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A59B0C1CECD30700C5E3A9 /* AppDelegate.swift */; };
 		C5A59B121CECD30700C5E3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A59B101CECD30700C5E3A9 /* Main.storyboard */; };
 		C5A59B141CECD30700C5E3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A59B131CECD30700C5E3A9 /* Assets.xcassets */; };
 		C5A59B171CECD30700C5E3A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A59B151CECD30700C5E3A9 /* LaunchScreen.storyboard */; };
 		C5A59B1F1CECD47400C5E3A9 /* VCHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A59B1E1CECD47400C5E3A9 /* VCHome.swift */; };
+		C5CE423E1CEEBBBC00AFBEBF /* VCUserHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE423D1CEEBBBC00AFBEBF /* VCUserHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C55E963F1CED94C500AFB446 /* VCMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMenu.swift; sourceTree = "<group>"; };
 		C55E96411CEDA7E000AFB446 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		C55E96431CEDC55200AFB446 /* NavgationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavgationUtil.swift; sourceTree = "<group>"; };
 		C5A59B091CECD30700C5E3A9 /* NavigationStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A59B0C1CECD30700C5E3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5A59B111CECD30700C5E3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		C5A59B161CECD30700C5E3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5A59B181CECD30800C5E3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5A59B1E1CECD47400C5E3A9 /* VCHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCHome.swift; sourceTree = "<group>"; };
+		C5CE423D1CEEBBBC00AFBEBF /* VCUserHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCUserHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				C5A59B0C1CECD30700C5E3A9 /* AppDelegate.swift */,
 				C5A59B1E1CECD47400C5E3A9 /* VCHome.swift */,
+				C5CE423D1CEEBBBC00AFBEBF /* VCUserHome.swift */,
 				C5A59B101CECD30700C5E3A9 /* Main.storyboard */,
 				C5A59B131CECD30700C5E3A9 /* Assets.xcassets */,
 				C5A59B151CECD30700C5E3A9 /* LaunchScreen.storyboard */,
 				C5A59B181CECD30800C5E3A9 /* Info.plist */,
 				C55E963F1CED94C500AFB446 /* VCMenu.swift */,
 				C55E96411CEDA7E000AFB446 /* User.storyboard */,
+				C55E96431CEDC55200AFB446 /* NavgationUtil.swift */,
 			);
 			path = NavigationStudy;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			files = (
 				C55E96401CED94C500AFB446 /* VCMenu.swift in Sources */,
 				C5A59B1F1CECD47400C5E3A9 /* VCHome.swift in Sources */,
+				C5CE423E1CEEBBBC00AFBEBF /* VCUserHome.swift in Sources */,
 				C5A59B0D1CECD30700C5E3A9 /* AppDelegate.swift in Sources */,
+				C55E96441CEDC55200AFB446 /* NavgationUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

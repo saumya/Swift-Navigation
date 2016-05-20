@@ -8,7 +8,7 @@
         <!--UserStoryBoard Home-->
         <scene sceneID="YiK-hG-zQ7">
             <objects>
-                <viewController storyboardIdentifier="sid_User" id="PTM-pW-Unu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sid_User" id="PTM-pW-Unu" customClass="VCUserHome" customModule="NavigationStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lkk-p0-1NX"/>
                         <viewControllerLayoutGuide type="bottom" id="pcx-iG-huG"/>
@@ -19,7 +19,11 @@
                         <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="UserStoryBoard Home" id="fE6-Z8-VBh">
-                        <barButtonItem key="rightBarButtonItem" title="Menu" id="0mv-WB-o4Z"/>
+                        <barButtonItem key="rightBarButtonItem" title="Menu" id="0mv-WB-o4Z">
+                            <connections>
+                                <action selector="showMenu" destination="PTM-pW-Unu" id="U00-s3-zZe"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Xb-BE-BeD" userLabel="First Responder" sceneMemberID="firstResponder"/>

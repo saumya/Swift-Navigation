@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VCHome: UIViewController {
+class VCUserHome: UIViewController {
     
     
    var navUtil:NavigationUtil?
@@ -16,14 +16,10 @@ class VCHome: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("VCHome : viewDidLoad")
-        
-        //showMenu()
-        //showUserHome()
-        //moveToVC("sid_User", withStoryBoardName: "User")
+        print("VCUserHome : viewDidLoad")
         
         self.navUtil = NavigationUtil(self)
-        self.navUtil?.moveToViewControllerWithStoryboardID("sid_User", withStoryboardName: "User")
+        //self.navUtil?.moveToViewControllerWithStoryboardID("sid_User", withStoryboardName: "User")
         //self.navUtil?.moveToViewControllerWithStoryboardIdWithoutBackButton("sid_User", withStoryboardName: "User")
     }
 
@@ -39,6 +35,12 @@ class VCHome: UIViewController {
             print("prepareForSegue : Segue id = segue_toMenu")
         }
     }
+    
+    @IBAction func showMenu(){
+        print("VCUserHome : showMenu : ")
+        self.navUtil!.moveToViewControllerWithStoryboardID("sid_Menu",withStoryboardName: "Main")
+    }
+    
     /*
     @IBAction func showMenu(){
         print("VCHome : showMenu")
@@ -47,7 +49,7 @@ class VCHome: UIViewController {
     private func showUserHome(){
         moveToViewControllerWithStoryboardID("sid_user_home")
     }
-    */
+ 
     private func moveToViewControllerWithStoryboardID(sid:String){
         let storyboard = UIStoryboard(name:"Main",bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier(sid)
@@ -65,6 +67,7 @@ class VCHome: UIViewController {
         //
         //let navUtil:NavigationUtil = NavigationUtil(self)
     }
+    */
     
 
 

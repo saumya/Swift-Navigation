@@ -55,7 +55,7 @@
         <!--Menu-->
         <scene sceneID="r2i-z7-4xq">
             <objects>
-                <viewController id="2wp-Q8-qOz" customClass="VCMenu" customModule="NavigationStudy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sid_Menu" id="2wp-Q8-qOz" customClass="VCMenu" customModule="NavigationStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hJo-rX-MBM"/>
                         <viewControllerLayoutGuide type="bottom" id="T5F-JJ-jCa"/>
