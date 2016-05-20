@@ -39,6 +39,7 @@ class VCUserHome: UIViewController {
     @IBAction func showMenu(){
         print("VCUserHome : showMenu : ")
         self.navUtil!.moveToViewControllerWithStoryboardID("sid_Menu",withStoryboardName: "Main")
+        //self.navUtil?.doSegue(self, withId: "segue_toMenu")
     }
     
     /*

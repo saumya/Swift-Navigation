@@ -18,6 +18,10 @@ public class NavigationUtil {
         self._vc = withVC
     }
     
+    // Ref :
+    // self.navigationController?.pushViewController(homeVC!, animated: true)
+    // self.navigationController?.showViewController(homeVC, sender: self)
+    
     // Takes to a new ViewController, displaying backbutton
     public func moveToViewControllerWithStoryboardID(sid:String,withStoryboardName:String){
         let storyboard = UIStoryboard(name:withStoryboardName,bundle: nil)
@@ -34,5 +38,9 @@ public class NavigationUtil {
         vc.navigationItem.hidesBackButton = true
         //self.navigationController?.showViewController(vc, sender: self)
         self._vc.navigationController?.showViewController(vc, sender: self._vc)
+    }
+    // Segue
+    public func doSegue(vc:UIViewController, withId:String){
+        vc.performSegueWithIdentifier(withId, sender: vc)
     }
 }
