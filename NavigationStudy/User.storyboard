@@ -5,6 +5,25 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Just A VC-->
+        <scene sceneID="FEu-4z-q0f">
+            <objects>
+                <viewController id="uyX-D3-zKM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mId-cM-4qs"/>
+                        <viewControllerLayoutGuide type="bottom" id="Be4-aP-cKb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OBt-oi-y1V">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Just A VC" id="BhD-8X-2i6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EbU-IN-8Am" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1198" y="-610"/>
+        </scene>
         <!--UserStoryBoard Home-->
         <scene sceneID="YiK-hG-zQ7">
             <objects>
@@ -41,7 +60,8 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="PTM-pW-Unu" kind="relationship" relationship="rootViewController" id="Flw-y0-ACl"/>
+                        <segue destination="uyX-D3-zKM" kind="relationship" relationship="rootViewController" id="drm-1o-Chh"/>
+                        <segue destination="PTM-pW-Unu" kind="show" id="QQN-At-xzZ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zzP-tw-yMV" userLabel="First Responder" sceneMemberID="firstResponder"/>

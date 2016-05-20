@@ -34,7 +34,7 @@
         <!--One-->
         <scene sceneID="L2S-9h-6Dj">
             <objects>
-                <viewController storyboardIdentifier="id_VC_One" id="Fdb-9F-5Vc" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="id_VC_One" id="Fdb-9F-5Vc" customClass="VCScreenOne" customModule="NavigationStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tNM-Co-Wc1"/>
                         <viewControllerLayoutGuide type="bottom" id="7OG-hK-7NM"/>
@@ -45,7 +45,11 @@
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="One" id="Y3a-B3-pmN">
-                        <barButtonItem key="rightBarButtonItem" title="Home" id="tyR-Bt-4Sz"/>
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="tyR-Bt-4Sz">
+                            <connections>
+                                <action selector="showHome" destination="Fdb-9F-5Vc" id="jjs-5E-XMF"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AE4-sz-8X3" userLabel="First Responder" sceneMemberID="firstResponder"/>

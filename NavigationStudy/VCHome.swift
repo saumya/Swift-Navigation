@@ -23,8 +23,8 @@ class VCHome: UIViewController {
         //moveToVC("sid_User", withStoryBoardName: "User")
         
         self.navUtil = NavigationUtil(self)
-        self.navUtil?.moveToViewControllerWithStoryboardID("sid_User", withStoryboardName: "User")
-        //self.navUtil?.moveToViewControllerWithStoryboardIdWithoutBackButton("sid_User", withStoryboardName: "User")
+        //self.navUtil?.moveToViewControllerWithStoryboardID("sid_User", withStoryboardName: "User")
+        self.navUtil?.moveToViewControllerWithStoryboardIdWithoutBackButton("sid_User", withStoryboardName: "User")
     }
 
     override func didReceiveMemoryWarning() {
